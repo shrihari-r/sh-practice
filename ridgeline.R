@@ -8,9 +8,6 @@ library(haven)
 dwnom.wk31 <- 
   read_dta("C:/Desktop/Data/navaneet/Weekly_DW-NOMINATE_31.DTA")
 
-# Subset the data to include only cases of the US House of 
-# Representatives from the desired Congress's, i.e., once each decade
-# between 1951 and 2011
 
 congresses <- c(82, 87, 92, 97, 102, 107, 112)
 
